@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Gyan Mandir | School</title>
+    <!-- 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> -->
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!-- fancy box css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- UIkit css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/css/uikit.min.css" />
+
+    <!-- user css -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pre-loader">
+        <div class="loading">
+            <div class="loader-icon">
+
+            </div>
+            <div class="img">
+                <img src="./assets/img/logo.jpg" alt="loading">
+            </div>
+            <span>Learning to lead</span>
+        </div>
+    </div>
+    <progress max="100" value="0"></progress>
+    <header>
+        <div class="site-nav">
+            <div class="uk-flex uk-flex-between uk-flex-middle uk-flex-wrap">
+                <div class="logo">
+                    <div>
+                        <a href="index.html"><img src="./assets/img/logo.jpg" alt="logo"></a>
+                    </div>
+                    <div>
+                        <p class="p2">ॐ ज्ञान मन्दिर स्कुल</p>
+                        <p class="p1">OM GYAN MANDIR SCHOOL</p>
+                    </div>
+                </div>
+
+                <nav class="uk-visible@l" uk-navbar>
+                    <ul class="navbar uk-flex-middle">
+                        <li><a href="index.html" class="nav-item">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-item">About<span uk-icon="icon: chevron-down"
+                                    class="dropdown-icon"></span></a>
+                            <div class="uk-navbar-dropdown"
+                                uk-dropdown="animation: reveal-top; animate-out: true; duration: 700">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="about-us.html" class="dropdown-list">About Us</a></li>
+                                    <li><a href="founder.html" class="dropdown-list">Message</a></li>
+                                    <li><a href="future-prospectus.html" class="dropdown-list">Future
+                                            prospects</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- <li><a href="about-us.html" class="nav-item">About</a></li> -->
+
+                        <li class="dropdown">
+                            <a href="#" class="nav-item">Gallery<span uk-icon="icon: chevron-down"
+                                    class="dropdown-icon"></span></a>
+                            <div class="uk-navbar-dropdown"
+                                uk-dropdown="animation: reveal-top; animate-out: true; duration: 700">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="gallery.html" class="dropdown-list">Photo</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- <li><a href="blog.html" class="nav-item">Blogs</a></li> -->
+                        <li><a href="event.html" class="nav-item">Events</a></li>
+                        <li><a href="achievement.html" class="nav-item">Achievements</a></li>
+
+                        <li class="nav-btn"><a class="uk-button btn-white btn-animate" href="admission.html">
+                                <span></span> Admission
+                                Form</a></li>
+
+
+                    </ul>
+
+                    <div class="clip">
+
+                    </div>
+                </nav>
+
+                <div class="uk-hidden@l uk-visible hamburger-menu">
+                    <a href="#offcanvas-slide" uk-toggle><span uk-icon="icon: menu"></span></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="offcanvas-slide" uk-offcanvas="overlay: true;flip: true">
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" title="close" uk-close></button>
+
+                <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-column uk-flex-wrap uk-margin-top">
+                    <div>
+                        <a href="index.html"><img src="./assets/img/logo.jpg" alt="logo" style="width:80px"></a>
+                    </div>
+                    <div>
+                        <p class="p2 uk-margin-remove-bottom uk-margin-top">ॐ ज्ञान मन्दिर स्कुल</p>
+                        <p class="p1 " style=" font-weight:bold">
+                            OM GYAN MANDIR SCHOOL</p>
+                    </div>
+                </div>
+
+                <hr class="uk-margin-remove-bottom">
+
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+
+                    <ul class="uk-margin-remove uk-accordion">
+                        <li class="uk-margin-remove list-item ">
+                            <a href="#" class="uk-accordion-title about-dropdown">About<span
+                                    uk-icon="icon: chevron-right" class="dropdown-icon"></span></a>
+                            <div class="uk-accordion-content about-dropdown-content uk-margin-remove-top ">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="about-us.html" class="dropdown-list">About Us</a></li>
+                                    <li><a href="founder.html" class="dropdown-list">Message</a></li>
+                                    <li><a href="future-prospectus.html" class="dropdown-list">Future
+                                            prospects</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    <!-- <li><a href="about-us.html">About</a></li> -->
+                    <ul class="uk-margin-remove uk-accordion">
+                        <li class="uk-margin-remove list-item ">
+                            <a href="#" class="uk-accordion-title gallery-dropdown">Gallery<span
+                                    uk-icon="icon: chevron-right" class="dropdown-icon"></span></a>
+                            <div class="uk-accordion-content gallery-dropdown-content uk-margin-remove-top ">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="gallery.html" class="dropdown-list">Photo</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <li><a href="blog.html">Blogs</a></li> -->
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="achievement.html">Achievements</a></li>
+
+
+                </ul>
+                <div class="nav-btn uk-margin-top"><a class="uk-button btn-dark btn-animate" href="admission.html">
+                        <span></span> Admission
+                        Form</a></div>
+
+            </div>
+        </div>
+
+        <!-- <div class="header-bg"></div> -->
+    </header>
+
+
+    <main class="mainpage">
+
+        <!-- hero banner -->
+        <section class="heroBanner">
+            <div class="swiper mySwiper-banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="banner">
+                            <img src="./assets/img/banner1.jpg" alt="">
+                        </div>
+                        <div class="banner-txt">
+                            <img src="./assets/img/banner-txt.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="banner">
+                            <img src="./assets/img/hero-banner2.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="banner">
+                            <img src="./assets/img/baanner3.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- hero banner -->
+
+
+        <!-- mission & vision -->
+        <section class="mission-vision uk-section">
+            <div class="uk-container">
+                <div class="uk-grid uk-flex-middle">
+                    <div class="uk-width-1-3@m mission-vision-img">
+                        <div>
+                            <img src="./assets/img/missionImg.png" alt="">
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <div uk-scrollspy="cls: uk-animation-slide-left; target:.wrapper; delay: 500; repeat: false">
+
+                            <div class="vision">
+                                <div class="title">
+                                    <h5><span>Our</span>Vision</h5>
+                                </div>
+                                <div>
+                                    <div class="wrapper">
+                                        <span>The Vision of OGM is to prepare globally competent and well-cultured
+                                            citizens.</span>
+                                    </div>
+                                    <!-- <div class="wrapper">
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                        <span>A school of Excellent Academic Performance.</span>
+                                    </div>
+                                    <div class="wrapper">
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                        <span>A National School in Art. </span>
+                                    </div>
+                                    <div class="wrapper">
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                        <span>The Best School of Academic Training Institution.</span>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="mission uk-margin-medium-top">
+                                <div class="title">
+                                    <h5><span>Our</span>Mission</h5>
+                                </div>
+                                <div>
+                                    <div class="wrapper">
+                                        <span>We at OGM have the mission to impart quality education inspired by
+                                            progressive education models. We equally value our traditional cultures that
+                                            includes respect, morality and responsibility. Parents and other
+                                            stakeholders remain as partners in materializing the Mission.</span>
+                                    </div>
+                                </div>
+                                <!-- <div>
+                                    <div class="wrapper">
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                        <span>To score an excellent academic result in every year.</span>
+                                    </div>
+                                    <div class="wrapper">
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                        <span>To achieve an excellent performance in Club Activities (Internal &
+                                            External).</span>
+                                    </div>
+                                    <div class="wrapper">
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                        <span>To apply various types of evaluation and assessment system to improve
+                                            learning.</span>
+                                    </div>
+                                    <div class="wrapper">
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                        <span>To keep a good understand link between learning and teaching style.</span>
+                                    </div>
+                                    <div class="wrapper">
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                        <span>To develop an excellent performance in language (English & Nepali).</span>
+                                    </div>
+                                    <div class="wrapper">
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                        <span>To develop a distinct moral characters of students.</span>
+                                    </div>
+                                    <div class="wrapper">
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                        <span>To create a lovely atmosphere.</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- mission & vision -->
+
+
+        <!-- about us -->
+        <section class="aboutUs uk-section">
+            <div class="uk-container">
+                <div class="uk-grid uk-child-width-1-2@m uk-flex-middle">
+                    <div>
+                        <div class="title">
+                            <h5><span>About</span>Our School</h5>
+                        </div>
+
+                        <div class="content" uk-scrollspy="cls: uk-animation-fade; delay: 500; repeat: false">
+                            <p>Established in 2051 BS (1995 AD) Om Gyan Mandir (OGM) School has proven to be a trusted
+                                institution for academic and overall growth of its students. With the change of time, we
+                                are keenly preparing our students for challenges and opportunities that lie ahead into
+                                their future.
+                                <br><br>
+                                We have the motto of Learning to Lead. We have this motto because future is going to be
+                                even more complicated. Only people with leaderships kills who have the ability to adapt
+                                to challenging circumstances, build a shared vision and lead teams can contribute to
+                                societies and can excel in their careers. At OGM, we are working to design experiences
+                                for students to deal with challenges and work in teams. We also offer students platform
+                                to value our rich cultural traditions and at the same time equip our students with
+                                contemporary technological skills.
+                                <br><br>
+                                Our leadership team, teaching faculty and entire staff members are committed to
+                                materialize the Vision, Mission and Objectives of the school.
+                            </p>
+                        </div>
+
+                        <a uk-scrollspy=" cls: uk-animation-scale-up; delay: 1000; repeat: false"
+                            class="uk-button btn-dark btn-animate" href="about-us.html"> <span></span> Read
+                            more</a>
+                    </div>
+
+                    <div class="about-img" uk-scrollspy="cls: uk-animation-slide-right; delay: 750; repeat: false">
+                        <svg width=" 837" height="628" viewBox="0 0 837 628" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="Group 40">
+                                <rect id="Rectangle 107" x="580.875" width="146.959" height="712.564" rx="73.4795"
+                                    transform="rotate(42.0852 580.875 0)" fill="#19467E" />
+                                <rect id="Rectangle1" x="368.059" y="52" width="23.0112" height="539.757"
+                                    transform="rotate(42.9921 368.059 52)" fill="url(#paint0_linear_71_2)" />
+                                <rect id="Rectangle2" x="444.059" y="76" width="23.0112" height="557.6"
+                                    transform="rotate(42.9921 444.059 76)" fill="url(#paint1_linear_71_2)" />
+                                <rect id="Rectangle3" x="533.059" y="93" width="23.0112" height="576.613"
+                                    transform="rotate(42.9921 533.059 93)" fill="url(#paint2_linear_71_2)" />
+                                <rect id="Rectangle4" x="635.059" y="98" width="23.0112" height="594.605"
+                                    transform="rotate(42.9921 635.059 98)" fill="url(#paint3_linear_71_2)" />
+                                <rect id="Rectangle5" x="735.059" y="108" width="23.0112" height="602.268"
+                                    transform="rotate(42.9921 735.059 108)" fill="url(#paint4_linear_71_2)" />
+                                <rect id="Rectangle6" x="820.059" y="133" width="23.0112" height="589.561"
+                                    transform="rotate(42.9921 820.059 133)" fill="url(#paint5_linear_71_2)" />
+                            </g>
+                            <defs>
+                                <linearGradient id="paint0_linear_71_2" x1="368.059" y1="52" x2="413.998" y2="53.9585"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#820000" />
+                                    <stop offset="1" stop-color="#FF1616" />
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_71_2" x1="444.059" y1="76" x2="490.003" y2="77.896"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#820000" />
+                                    <stop offset="1" stop-color="#FF1616" />
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_71_2" x1="533.059" y1="93" x2="579.008" y2="94.8337"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#820000" />
+                                    <stop offset="1" stop-color="#FF1616" />
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_71_2" x1="635.059" y1="98" x2="681.012" y2="99.7784"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#820000" />
+                                    <stop offset="1" stop-color="#FF1616" />
+                                </linearGradient>
+                                <linearGradient id="paint4_linear_71_2" x1="735.059" y1="108" x2="781.014" y2="109.756"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#820000" />
+                                    <stop offset="1" stop-color="#FF1616" />
+                                </linearGradient>
+                                <linearGradient id="paint5_linear_71_2" x1="820.059" y1="133" x2="866.011" y2="134.794"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#820000" />
+                                    <stop offset="1" stop-color="#FF1616" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div>
+                            <img src="./assets/img/about.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about us -->
+
+
+        <!-- why choose us -->
+        <!-- <section class="chooseUs uk-section">
+            <div class="title uk-text-center">
+                <h5><span>Why</span>Choose Us?</h5>
+            </div>
+
+            <div class="uk-grid uk-grid-match uk-child-width-1-3@m uk-margin-remove wrapper">
+                <div class="uk-padding-remove">
+                    <div class="content chooseUsContent">
+                        <div>
+                            <i class="fas fa-check-circle fa-3x"></i>
+                        </div>
+                        <h5>Objective 1</h5>
+                        <p>To prepare students to embark new areas of career and develop the foundations for higher
+                            studies.
+                        </p>
+                    </div>
+                </div>
+                <div class="uk-padding-remove">
+                    <div class="content chooseUsContent activeContent"
+                        uk-scrollspy="cls: uk-animation-fade; delay: 500; repeat: false">
+                        <div>
+                            <i class="fas fa-check-circle fa-3x"></i>
+                        </div>
+                        <h5>Objective 2</h5>
+                        <p>To inculcate a positive attitude and respect for discipline.</p>
+                    </div>
+                </div>
+                <div class="uk-padding-remove">
+                    <div class="content chooseUsContent">
+                        <div>
+                            <i class="fas fa-check-circle fa-3x"></i>
+                        </div>
+                        <h5>Objective 3</h5>
+                        <p>To develop a professional level of presentational writing and communicative skills.</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- why choose us -->
+
+
+        <!-- objective -->
+        <div class="objective salient-feature uk-margin-large-top">
+            <div class="uk-container" style="position:relative;z-index:2">
+                <div class="title">
+                    <h5><span>Our </span>Objectives</h5>
+                </div>
+                <h4>Our school has the following five Objectives which we strive to deliver every day:</h4>
+                <div uk-scrollspy="cls: uk-animation-slide-left; target:.list; delay: 300; repeat: false">
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Continually improve the quality of education while meeting demands of changing
+                            times</span>
+                    </div>
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Challenge students to think, embark on new ideas of careers</span>
+                    </div>
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Develop strong foundation for higher studies</span>
+                    </div>
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Inculcate positive attitude & discipline in what our students do</span>
+                    </div>
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Set highest standards with the resources available in everything that we do</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <!-- objective -->
+
+
+        <!-- gallery -->
+        <section class="gallery uk-section">
+            <div class="title uk-text-center">
+                <h5><span>Our</span>Gallery</h5>
+            </div>
+
+            <div class="uk-container uk-container-expand">
+                <div class="swiper mySwiper-gallery">
+                    <div class="swiper-wrapper"
+                        uk-scrollspy="cls: uk-animation-slide-bottom; target: .swiper-slide; delay: 300; repeat: false">
+                        <div class="swiper-slide">
+                            <div>
+                                <a href="./assets/img/gallery1.JPG" data-fancybox="gallery"
+                                    data-caption="Gallery Name1">
+                                    <img src="./assets/img/gallery1.JPG" />
+
+                                    <div class="content">
+                                        <h5><span>Gallery</span>Name</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <a href="./assets/img/gallery2.JPG" data-fancybox="gallery"
+                                    data-caption="Gallery Name2">
+                                    <img src="./assets/img/gallery2.JPG" />
+
+                                    <div class="content">
+                                        <h5><span>Gallery</span>Name</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <a href="./assets/img/gallery3.JPG" data-fancybox="gallery"
+                                    data-caption="Gallery Name3">
+                                    <img src="./assets/img/gallery3.JPG" />
+
+                                    <div class="content">
+                                        <h5><span>Gallery</span>Name</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <a href="./assets/img/gallery4.JPG" data-fancybox="gallery"
+                                    data-caption="Gallery Name4">
+                                    <img src="./assets/img/gallery4.JPG" />
+
+                                    <div class="content">
+                                        <h5><span>Gallery</span>Name</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <a href="./assets/img/gallery5.JPG" data-fancybox="gallery"
+                                    data-caption="Gallery Name5">
+                                    <img src="./assets/img/gallery5.JPG" />
+
+                                    <div class="content">
+                                        <h5><span>Gallery</span>Name</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"><i class="fas fa-arrow-right fa-2x"></i></div>
+                    <div class="swiper-button-prev"><i class="fas fa-arrow-left fa-2x"></i></div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery -->
+
+
+        <!-- event -->
+        <section class="event uk-section">
+            <div class="title uk-text-center">
+                <h5><span>Our</span>Events</h5>
+            </div>
+            <div class="swiper mySwiper-event">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="uk-grid uk-child-width-1-2@m wrapper">
+                            <div class="content" uk-scrollspy="cls: uk-animation-fade; delay: 1000; repeat: false">
+                                <div>
+                                    <span><i class="far fa-calendar-alt"></i>10th Falgun, 2079</span>
+                                </div>
+                                <h5>
+                                    <span>Educational</span> tour
+                                </h5>
+                                <p>When the children play nature dances with them. The Democratic Federal Republic Nepal
+                                    has almost swallowed the the then Properties.
+                                    Nothing exists (Zero management) of before. Even not a single flower and plants.
+                                    Dust and ruins only.
+                                </p>
+                                <a class="uk-button btn-dark btn-animate" href="event-secondary.html">
+                                    <span></span> Read
+                                    more</a>
+                            </div>
+
+                            <div uk-scrollspy="cls: uk-animation-slide-right; delay: 500; repeat: false">
+                                <img src="./assets/img/event1.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="uk-grid uk-child-width-1-2@m wrapper">
+                            <div class="content" uk-scrollspy="cls: uk-animation-fade; delay: 1000; repeat: false">
+                                <div>
+                                    <span><i class="far fa-calendar-alt"></i>7th Falgun, 2079</span>
+                                </div>
+                                <h5>
+                                    <span>Quiz</span> Contest
+                                </h5>
+                                <p>Congratulation Team OGM for achieving 2nd position in 6th Halesi Running Shield Inter
+                                    Secondary School Quiz Contest - 2079.
+                                </p>
+                                <a class="uk-button btn-dark btn-animate" href="event-secondary.html">
+                                    <span></span> Read
+                                    more</a>
+                            </div>
+
+                            <div uk-scrollspy="cls: uk-animation-slide-right; delay: 500; repeat: false">
+                                <img src="./assets/img/event2.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="uk-grid uk-child-width-1-2@m wrapper">
+                            <div class="content" uk-scrollspy="cls: uk-animation-fade; delay: 1000; repeat: false">
+                                <div>
+                                    <span><i class="far fa-calendar-alt"></i>Magh 12, 2079</span>
+                                </div>
+                                <h5>
+                                    <span>Saraswati</span> Pooja
+                                </h5>
+                                <p>Best wishes to all educators, educators, teachers, parents, students and well
+                                    wishers.
+                                </p>
+                                <a class="uk-button btn-dark btn-animate" href="event-secondary.html">
+                                    <span></span> Read
+                                    more</a>
+                            </div>
+
+                            <div uk-scrollspy="cls: uk-animation-slide-right; delay: 500; repeat: false">
+                                <img src="./assets/img/event3.jpg" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"><i class="fas fa-arrow-right fa-2x"></i></div>
+                <div class="swiper-button-prev"><i class="fas fa-arrow-left fa-2x"></i></div>
+            </div>
+        </section>
+        <!-- event -->
+
+
+        <!-- team -->
+        <section class="team uk-section">
+            <div class="title uk-text-center">
+                <h5><span>Our</span>Teams</h5>
+            </div>
+            <div class="uk-container uk-container-expand">
+                <div class="swiper mySwiper-team">
+                    <div class="swiper-wrapper"
+                        uk-scrollspy="cls: uk-animation-slide-bottom; target: .swiper-slide; delay: 300; repeat: false">
+                        <div class="swiper-slide">
+                            <div class="team-photo">
+                                <div class="img">
+                                    <img src="./assets/img/pic1.jpg" alt="">
+                                </div>
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                            </div>
+                            <h5>
+                                <span>team</span> name
+                            </h5>
+                            <span>Position</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-photo">
+                                <div class="img">
+                                    <img src="./assets/img/pic2.jpg" alt="">
+                                </div>
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                            </div>
+                            <h5>
+                                <span>team</span> name
+                            </h5>
+                            <span>Position</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-photo">
+                                <div class="img">
+                                    <img src="./assets/img/pic1.jpg" alt="">
+                                </div>
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                            </div>
+                            <h5>
+                                <span>team</span> name
+                            </h5>
+                            <span>Position</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-photo">
+                                <div class="img">
+                                    <img src="./assets/img/pic2.jpg" alt="">
+                                </div>
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                            </div>
+                            <h5>
+                                <span>team</span> name
+                            </h5>
+                            <span>Position</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-photo">
+                                <div class="img">
+                                    <img src="./assets/img/pic1.jpg" alt="">
+                                </div>
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                            </div>
+                            <h5>
+                                <span>team</span> name
+                            </h5>
+                            <span>Position</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-photo">
+                                <div class="img">
+                                    <img src="./assets/img/pic2.jpg" alt="">
+                                </div>
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                            </div>
+                            <h5>
+                                <span>team</span> name
+                            </h5>
+                            <span>Position</span>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"><i class="fas fa-arrow-right fa-2x"></i></div>
+                    <div class="swiper-button-prev"><i class="fas fa-arrow-left fa-2x"></i></div>
+                </div>
+            </div>
+        </section>
+        <!-- team -->
+
+        <!-- testimonials -->
+        <section class="testimonials uk-section">
+            <div class="uk-container uk-container-expand">
+                <div class="title uk-text-center">
+                    <h5><span>What our</span>OGMIAN's says?</h5>
+                </div>
+
+                <div class="swiper mySwiper-testimonials">
+                    <div class="swiper-wrapper"
+                        uk-scrollspy="cls: uk-animation-slide-bottom; target: .swiper-slide; delay: 300; repeat: false">
+                        <div class="swiper-slide">
+                            <div class="uk-grid uk-flex-middle">
+                                <div class="uk-width-1-3@m">
+                                    <div class="testimonials-img-wrapper"
+                                        uk-scrollspy="cls: uk-animation-slide-right; delay: 1000; repeat: false">
+                                        <div class="img">
+                                            <img src=" ./assets/img/testi1.jpg" alt="">
+                                            <div class="border-top"></div>
+                                            <div class="border-bottom"></div>
+                                            <div class="border-left"></div>
+                                            <div class="border-right"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="uk-width-expand">
+                                    <div class="testimonials-content">
+                                        <h5>Telling a short brief</h5>
+                                        <br>
+                                        <p>My gratitude for the entire motivations, encouragement, support and
+                                            guidance throughout. My school career was best where I stood School First
+                                            in Academic Result. I used to score the best marks in learning and exams.
+                                            My bright nature was grafted honestly by my teachers there. It has shaped
+                                            my co-curricular mind and winning ideas to lead and stand ahead.</p>
+
+                                        <p>Academic and extracurricular mind have an integral role in shaping up my
+                                            persona and stand as an individual I am today.</p>
+
+                                        <p>I am now working in a government hospital (Assistance Joint Secretary
+                                            Level) as a Consultant Orthodontist at Bharatpur Hospital, Chitwan, Nepal.
+                                        </p>
+                                        <h4>Dr. Pinky singh</h4>
+                                        <span>Consultant Orthodontist
+                                            <br>
+                                            Nepal Government Health Services
+                                            <br>
+                                            Bharatpur Hospital, Chitwan, Nepal
+                                            <br>
+                                            MDS- AIIMS, New Delhi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="uk-grid uk-flex-middle">
+                                <div class="uk-width-1-3@m">
+                                    <div class="testimonials-img-wrapper"
+                                        uk-scrollspy="cls: uk-animation-slide-right; delay: 1000; repeat: false">
+                                        <div class="img">
+                                            <img src=" ./assets/img/testi2.jpg" alt="">
+                                            <div class="border-top"></div>
+                                            <div class="border-bottom"></div>
+                                            <div class="border-left"></div>
+                                            <div class="border-right"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="uk-width-expand">
+                                    <div class="testimonials-content">
+                                        <h5>My school days experience</h5>
+                                        <br>
+                                        <p>Education is not just about going to school and getting a certificates.
+                                            It&#39;s
+                                            about widening our knowledge and absorbing the truth.</p>
+
+                                        <p>School is said to be a temple of knowledge, the very first place that
+                                            introduces you to the world and more so our own self. My school life is
+                                            about the memories I deeply cherish. The memories of hard work, fun,
+                                            lifelong friendship, and extracurricular activities. I still remember the
+                                            year
+                                            2005 in which I had won three national awards in art competition and was
+                                            able to flourish my school's name nationally and later honored as THE
+                                            BEST STUDENT OF THE YEAR. And I still remember my first photo and
+                                            name quoted with inspiring words on the National Broadsheet. It was as an
+                                            honour of my Honesty, Dedication and Love of Learning to Lead.</p>
+
+                                        <p>I am a resident doctor in Ophthalmology and doing well in my profession.
+                                            There are so many helping hands beside my achievements and the vital is
+                                            of course my teachers. They have made me what I am today and given
+                                            various opportunities to develop not only my scholastic abilities but also
+                                            the
+                                            entire extracurricular activities which helped me to understand how to
+                                            behave socially and helped me build a bold and confident personality. I
+                                            owe to my teachers for all those achievements I have made. Thank you
+                                        </p>
+                                        <h4>Dr. Priyanka Singh</h4>
+                                        <span>Resident doctor (ophthalmology)
+                                            <br>
+                                            Gandaki Medical College, Pokhara
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="uk-grid uk-flex-middle">
+                                <div class="uk-width-1-3@m">
+                                    <div class="testimonials-img-wrapper"
+                                        uk-scrollspy="cls: uk-animation-slide-right; delay: 1000; repeat: false">
+                                        <div class="img">
+                                            <img src=" ./assets/img/testi3.jpg" alt="">
+                                            <div class="border-top"></div>
+                                            <div class="border-bottom"></div>
+                                            <div class="border-left"></div>
+                                            <div class="border-right"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="uk-width-expand">
+                                    <div class="testimonials-content">
+                                        <h5>Looking back to my best school</h5>
+                                        <br>
+                                        <p>Looking back at my student years at Om Gyan Mandir School, I find that
+                                            the experienced and multi-dimensional teachers' team. Along with
+                                            teaching
+                                            learning activities, assuring future faculty advancement prospect, I
+                                            remember the ever competent management combining assurance of
+                                            optimal environment and culture for academic development of the students.
+                                            Again, I have been benefited by the culture of exploring and developing the
+                                            creative aspects of students in both my personal life and professional
+                                            career. I still stand with OGM and strongly recommend the entire parents to
+                                            admit their off springs and get return a successful team leader for future.
+                                        </p>
+
+                                        <p>Because of my best background I am getting success in my professional
+                                            Engineering Career. The extracurricular activities and my participation led
+                                            my successful completion of my graduation with distinction marks. I learned
+                                            the dedication and hard work along with team effort are the key to open
+                                            various opportunities came in my life. The way struggling was learnt in my
+                                            schooling. My social behaviour, confidence and personality development
+                                            are the result of base on which I went on standing. I personally miss my
+                                            school days and the entire school team very much.</p>
+
+                                        <h4>Er. Ajar Gopal Kisiju</h4>
+                                        <span>Site Engineer ND - 1 SASEC Road
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="swiper-slide">
+                            <div class="uk-grid uk-flex-middle">
+                                <div class="uk-width-1-3@m">
+                                    <div class="testimonials-img-wrapper"
+                                        uk-scrollspy="cls: uk-animation-slide-left; delay: 500; repeat: false">
+                                        <div class="border-top"></div>
+                                        <div class="border-bottom"></div>
+                                        <div class="border-left"></div>
+                                        <div class="border-right"></div>
+                                        <div class="img">
+                                            <iframe width="100%" height="315"
+                                                src="https://www.youtube.com/embed/8LSt8_11wbQ"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="uk-width-expand">
+                                    <div class="testimonials-content">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique expedita
+                                            et
+                                            sunt
+                                            quos
+                                            ut cumque? Distinctio sequi odio architecto quis iste delectus aut
+                                            obcaecati,
+                                            nulla
+                                            nesciunt repellendus eaque libero reiciendis.
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique expedita
+                                            et
+                                            sunt
+                                            quos
+                                            ut cumque? Distinctio sequi odio architecto quis iste delectus aut
+                                            obcaecati,
+                                            nulla
+                                            nesciunt repellendus eaque libero reiciendis.
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique expedita
+                                            et
+                                            sunt
+                                            quos
+                                            ut cumque? Distinctio sequi odio architecto quis iste delectus aut
+                                            obcaecati,
+                                            nulla
+                                            nesciunt repellendus eaque libero reiciendis.
+                                        </p>
+                                        <h5>Pramod Shrestha, Director</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                    </div>
+                    <div class="swiper-button-next"><i class="fas fa-arrow-right fa-2x"></i></div>
+                    <div class="swiper-button-prev"><i class="fas fa-arrow-left fa-2x"></i></div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonials -->
+
+        <!-- admission -->
+        <article class="admission uk-section">
+            <div class="content admission-content">
+                <div class="text uk-flex">
+                    <h1 class="text1"><span>admission</span></h1>
+                    <h1 class="text2"><span>open</span></h1>
+                    <h1 class="text3"><span>now</span></h1>
+                </div>
+
+                <a class="uk-button btn-white btn-animate" href="admission.html"> <span></span> Admission
+                    Form</a>
+            </div>
+            <div class="overlay"></div>
+        </article>
+        <!-- admission -->
+
+
+
+
+        <!-- blog -->
+        <!-- <section class="blog uk-section">
+        <div class="title uk-text-center">
+            <h5><span>Our</span>Blogs</h5>
+        </div>
+
+        <div class="uk-container uk-container-expand">
+            <div class="swiper mySwiper-blog">
+                <div class="swiper-wrapper"
+                    uk-scrollspy="cls: uk-animation-slide-bottom; target: .swiper-slide; delay: 300; repeat: false">
+                    <div class="swiper-slide">
+                        <div>
+                            <a href="blog-secondary.html">
+                                <img src="./assets/img/gallery.png" />
+                                <div class="info">
+                                    <p>Auther | 31 Jan 2023</p>
+                                    <h3>Title</h3>
+                                </div>
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <a href="blog-secondary.html">
+                                <img src="./assets/img/blog.png" />
+                                <div class="info">
+                                    <p>Auther | 31 Jan 2023</p>
+                                    <h3>Title</h3>
+                                </div>
+                                <div class="overlay"></div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <a href="blog-secondary.html">
+                                <img src="./assets/img/gallery.png" />
+                                <div class="info">
+                                    <p>Auther | 31 Jan 2023</p>
+                                    <h3>Title</h3>
+                                </div>
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <a href="blog-secondary.html">
+                                <img src="./assets/img/blog.png" />
+                                <div class="info">
+                                    <p>Auther | 31 Jan 2023</p>
+                                    <h3>Title</h3>
+                                </div>
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <a href="blog-secondary.html">
+                                <img src="./assets/img/gallery.png" />
+                                <div class="info">
+                                    <p>Auther | 31 Jan 2023</p>
+                                    <h3>Title</h3>
+                                </div>
+                                <div class="overlay"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"><i class="fas fa-arrow-right fa-2x"></i></div>
+                <div class="swiper-button-prev"><i class="fas fa-arrow-left fa-2x"></i></div>
+            </div>
+        </div>
+    </section> -->
+        <!-- blog -->
+
+        <!-- partners  -->
+        <section class="partner uk-section">
+            <div class="title uk-text-center">
+                <h5><span>Learning</span>Partners</h5>
+            </div>
+            <div class="uk-container uk-container-expand">
+                <div class="partner-bg">
+                    <div class="swiper mySwiper-partner">
+                        <div class="swiper-wrapper uk-flex-middle uk-padding-remove">
+                            <div class="swiper-slide">
+                                <img src="./assets/img/partner1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/img/partner2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./assets/img/partner3.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- partners  -->
+
+
+        <!-- location -->
+        <section class="location uk-section">
+            <div class="title uk-text-center">
+                <h5><span>Our</span>Location</h5>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14133.432613397645!2d85.3593495!3d27.6753233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5a97a4b0b1401436!2sOm%20Gyan%20Mandir%20Secondary%20School%20(Secondary%20Block%20)!5e0!3m2!1sen!2snp!4v1676623884531!5m2!1sen!2snp"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <!-- location -->
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="uk-container uk-container-expand">
+            <div class="uk-grid footer-wrapper">
+                <div class="uk-width-expand@l uk-width-1-1@m">
+                    <div class="footer-info">
+                        <div class="uk-flex uk-flex-middle uk-flex-wrap">
+                            <a href="index.html" class="foot-logo">
+                                <img src="./assets/img/logo.jpg" alt="">
+                            </a>
+                            <h4 class="uk-margin-remove">OM GYAN MANDIR SCHOOL</h4>
+                        </div>
+                        <p>We Believe to Prove Our Excellence. We are much committed to train the students to be the
+                            leading
+                            executive and academics in the global market. OGM, therefore, comprises a team of highly
+                            experienced, skilled and trained teaching faculty to materialize our vision. For the
+                            academic
+                            excellence of the students, we get them involved in various student-centered activities for
+                            their all round development.</p>
+
+                        <div class="footer-btn">
+                            <a class="uk-button btn-white btn-animate" href="about-us.html"> <span></span> Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-5@l uk-width-1-3@m">
+                    <div class="quick-links">
+
+                        <h4>Quick Links</h4>
+                        <ul class="uk-list">
+                            <li><a href="about-us.html">About</a>
+                            <li><a href="blog.html">Blog</a>
+                            <li><a href="event.html">Event</a>
+                            <li><a href="gallery.html">Gallery</a>
+                            <li><a href="achievement.html">Achievements</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-4@l uk-width-1-3@m">
+                    <div class="contact-info">
+                        <h4>Contact Us</h4>
+
+                        <ul class="uk-list">
+                            <li>
+                                <i class="fas fa-phone-alt uk-margin-small-right"></i>
+                                <a href="tel:6637065">01-6637065</a>
+                            </li>
+                            <li><i class="fas fa-envelope uk-margin-small-right"></i><a
+                                    href="mailto:omgyanmandir51@gmail.com">info@ogm.edu.np</a></li>
+                            <li><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Madhayapur Thimi-1,
+                                Lohakilthali,
+                                Bhaktapur.</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-6@l uk-width-1-3@m">
+                    <div class="social-media">
+                        <h4>Also download our Apps on Play Store</h4>
+                        <div>
+                            <a href="#" class="social">
+                                <img src=" ./assets/img/app-store.png" alt="" class="app ">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="social">
+                                <img src="./assets/img/google-play.png" alt="" class="app ">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="foot">
+                <div class="social-media uk-margin-right">
+                    <a href="#" uk-icon="icon: facebook" class="uk-margin-small-right f uk-padding-remove social"></a>
+                    <a href="#" uk-icon="icon: twitter" class="uk-margin-small-right t uk-padding-remove social"></a>
+                    <a href="#" uk-icon="icon: instagram" class="uk-margin-small-right i uk-padding-remove social"></a>
+                </div>
+                <div class="uk-margin-left">
+                    <span> <a href="https://easysoftware.com.np/" target="_blank">EasySoftware</a> &copy; Copyright 2022
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-bg"></div>
+    </footer>
+    <!-- footer -->
+
+    <!-- go to top starts -->
+    <!-- <a href="!#" class="go-to-top" id="top" uk-scroll uk-tooltip="Go to top">
+    <i class="fas fa-chevron-circle-up fa-2x"></i>
+</a> -->
+    <!-- go to top ends -->
+
+
+    <!-- UIkit JS starts-->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit-icons.min.js"></script>
+    <!-- UIkit JS ends-->
+
+    <!-- jQuery js starts -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery-1.11.0.min.js"></script>
+    <script src="./assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <!-- jQuery js ends -->
+
+    <!-- swiper js starts -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- swiper js ends -->
+
+    <!-- fancy box -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- gsap animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+        integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+
+</html>

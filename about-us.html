@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Gyan Mandir | School</title>
+    <!-- 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> -->
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!-- fancy box css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- UIkit css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/css/uikit.min.css" />
+
+    <!-- user css -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pre-loader">
+        <div class="loading">
+            <div class="loader-icon">
+
+            </div>
+            <div class="img">
+                <img src="./assets/img/logo.jpg" alt="loading">
+            </div>
+            <span>Learning to lead</span>
+        </div>
+    </div>
+    <progress max="100" value="0"></progress>
+    <header>
+        <div class="site-nav">
+            <div class="uk-flex uk-flex-between uk-flex-middle uk-flex-wrap">
+                <div class="logo">
+                    <div>
+                        <a href="index.html"><img src="./assets/img/logo.jpg" alt="logo"></a>
+                    </div>
+                    <div>
+                        <p class="p2">ॐ ज्ञान मन्दिर स्कुल</p>
+                        <p class="p1">OM GYAN MANDIR SCHOOL</p>
+                    </div>
+                </div>
+
+                <nav class="uk-visible@l" uk-navbar>
+                    <ul class="navbar uk-flex-middle">
+                        <li><a href="index.html" class="nav-item">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-item">About<span uk-icon="icon: chevron-down"
+                                    class="dropdown-icon"></span></a>
+                            <div class="uk-navbar-dropdown"
+                                uk-dropdown="animation: reveal-top; animate-out: true; duration: 700">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="about-us.html" class="dropdown-list">About Us</a></li>
+                                    <li><a href="founder.html" class="dropdown-list">Message</a></li>
+                                    <li><a href="future-prospectus.html" class="dropdown-list">Future
+                                            prospects</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- <li><a href="about-us.html" class="nav-item">About</a></li> -->
+
+                        <li class="dropdown">
+                            <a href="#" class="nav-item">Gallery<span uk-icon="icon: chevron-down"
+                                    class="dropdown-icon"></span></a>
+                            <div class="uk-navbar-dropdown"
+                                uk-dropdown="animation: reveal-top; animate-out: true; duration: 700">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="gallery.html" class="dropdown-list">Photo</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                        <!-- <li><a href="blog.html" class="nav-item">Blogs</a></li> -->
+                        <li><a href="event.html" class="nav-item">Events</a></li>
+                        <li><a href="achievement.html" class="nav-item">Achievements</a></li>
+
+                        <li class="nav-btn"><a class="uk-button btn-white btn-animate" href="admission.html">
+                                <span></span> Admission
+                                Form</a></li>
+
+
+                    </ul>
+
+                    <div class="clip">
+
+                    </div>
+                </nav>
+
+                <div class="uk-hidden@l uk-visible hamburger-menu">
+                    <a href="#offcanvas-slide" uk-toggle><span uk-icon="icon: menu"></span></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="offcanvas-slide" uk-offcanvas="overlay: true;flip: true">
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" title="close" uk-close></button>
+
+                <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-column uk-flex-wrap uk-margin-top">
+                    <div>
+                        <a href="index.html"><img src="./assets/img/logo.jpg" alt="logo" style="width:80px"></a>
+                    </div>
+                    <div>
+                        <p class="p2 uk-margin-remove-bottom  uk-margin-top">ॐ ज्ञान मन्दिर स्कुल</p>
+                        <p class="p1 " style=" font-weight:bold">
+                            OM GYAN MANDIR SCHOOL</p>
+                    </div>
+                </div>
+
+                <hr class="uk-margin-remove-bottom">
+
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+
+                    <ul class="uk-margin-remove uk-accordion">
+                        <li class="uk-margin-remove list-item ">
+                            <a href="#" class="uk-accordion-title about-dropdown">About<span
+                                    uk-icon="icon: chevron-right" class="dropdown-icon"></span></a>
+                            <div class="uk-accordion-content about-dropdown-content uk-margin-remove-top ">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="about-us.html" class="dropdown-list">About Us</a></li>
+                                    <li><a href="founder.html" class="dropdown-list">Message</a></li>
+                                    <li><a href="future-prospectus.html" class="dropdown-list">Future
+                                            prospects</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    <!-- <li><a href="about-us.html">About</a></li> -->
+                    <ul class="uk-margin-remove uk-accordion">
+                        <li class="uk-margin-remove list-item ">
+                            <a href="#" class="uk-accordion-title gallery-dropdown">Gallery<span
+                                    uk-icon="icon: chevron-right" class="dropdown-icon"></span></a>
+                            <div class="uk-accordion-content gallery-dropdown-content uk-margin-remove-top ">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="gallery.html" class="dropdown-list">Photo</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- <li><a href="blog.html">Blogs</a></li> -->
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="achievement.html">Achievements</a></li>
+
+
+                </ul>
+                <div class="nav-btn uk-margin-top"><a class="uk-button btn-dark btn-animate" href="admission.html">
+                        <span></span> Admission
+                        Form</a></div>
+
+            </div>
+        </div>
+
+        <!-- <div class="header-bg"></div> -->
+    </header>
+
+    <main class="mainpage">
+        <!-- breadcrumb -->
+        <section class="breadcrumb">
+            <div class="uk-container uk-container-expand">
+                <div class="uk-flex uk-flex-between uk-flex-middle uk-flex-wrap wrapper">
+                    <div>
+                        <h3>About Us</h3>
+                    </div>
+
+                    <div class="home">
+                        <i class="fas fa-home"></i>
+                        <a href="index.html">Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </section>
+        <!-- breadcrumb -->
+
+
+        <!-- About Us -->
+        <div class="aboutUs-page uk-section">
+            <div class="uk-container uk-container-expand">
+
+
+                <div class="uk-grid uk-child-width-1-2@m uk-flex-middle">
+                    <div>
+                        <div class="title">
+                            <h5><span>About</span>Us</h5>
+                        </div>
+                        <div class="content-wrapper" uk-scrollspy="cls: uk-animation-fade; delay: 1000; repeat: false">
+                            <p>Established in 2051 BS (1995 AD) Om Gyan Mandir (OGM) School has proven to be a trusted
+                                institution for academic and overall growth of its students. With the change of time, we
+                                are keenly preparing our students for challenges and opportunities that lie ahead into
+                                their future.
+                                <br><br>
+                                We have the motto of Learning to Lead. We have this motto because future is going to be
+                                even more complicated. Only people with leaderships kills who have the ability to adapt
+                                to challenging circumstances, build a shared vision and lead teams can contribute to
+                                societies and can excel in their careers. At OGM, we are working to design experiences
+                                for students to deal with challenges and work in teams. We also offer students platform
+                                to value our rich cultural traditions and at the same time equip our students with
+                                contemporary technological skills.
+                                <br><br>
+                                Our leadership team, teaching faculty and entire staff members are committed to
+                                materialize the Vision, Mission and Objectives of the school.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="aboutUs-page-img about-img"
+                            uk-scrollspy="cls: uk-animation-slide-right; delay: 1500; repeat: false">
+                            <img src="./assets/img/abpage.jpg" alt="">
+                            <span class="hscroll-line"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="facility uk-section">
+            <div class="uk-container uk-container-expand">
+                <div class="title">
+                    <h5><span>Our</span>Facilities</h5>
+                </div>
+
+                <div class="uk-grid uk-child-width-1-2@m uk-grid-match"
+                    uk-scrollspy="cls: uk-animation-slide-bottom; target:.content; delay: 500; repeat: false">
+                    <div>
+                        <div class="content teaching">
+                            <h5>Teaching and Learning</h5>
+                            <p>We are guided by Nepal's national curriculum. We, however, seek to bring in features of
+                                progressive education to make teaching & learning more relevant, meaningful and
+                                practicable to students. Our teachers are trained to design varieties that help make
+                                learning journey of students an enriching one at OGM.
+                                <br><br>
+                                Children are taught though a combination of lectures, Group Discussion, Tutorial
+                                Presentation, Direct Observation, Lab Works, Continuous Assessment, Homework, simulation
+                                (Game and Sports), Problem solving, Quiz Show, Debates, Field Visits and Seminars. The
+                                classroom activities are not confined to books alone. Teachers nurture critical thinking
+                                of students by encouraging them to work without fear, ask questions, analyze and draw
+                                logical conclusion.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- <div>
+                        <div class="content eca">
+                            <h5>ECA and CCA</h5>
+                            <p>OGM regularly conducts various ECAs and CCAs. Activities like Music and Dance, Art and
+                                Drawing, Craft Work, Sport with indoor and out-door games have been started as
+                                extracurricular activities under the guidance of nationally renowned figure of
+                                respective
+                                fields. The school conducts different co-curricular activities like Essay Writing, Poem
+                                and
+                                Story Writing, Debates and artistic ways of enhancing the ability of the students in
+                                their
+                                interest.
+                                <br> <br>
+                                In order to encourage and motivate our cohorts in social and community service OGM has
+                                introduced various clubs.
+
+                                <br><br>
+
+                                The clubs being run in school are:
+
+                            <div class="list">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                                <span>Art, Music and Dance and Quiz Club</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                                <span>Literature Club (English and Nepali)</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                                <span>Sports and Ex-students' Club</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                                <span>Friends of Zoo (FOZ) and Eco Club</span>
+                            </div>
+                            </p>
+                        </div>
+                    </div> -->
+
+                    <div>
+                        <div>
+                            <div class="content assessment">
+                                <h5>Continuous Assessment</h5>
+                                <p>Other than formal/ terminal examinations, we follow continuous assessment of students
+                                    in
+                                    which various aspects of students are observed and assessed on a regular basis.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="content assignment">
+                                <h5>Assignment</h5>
+                                <p>Students are given regular assignments to revise their learning and get prepared to
+                                    learn
+                                    further. Assignments include project work, creative work and practice exercises.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="content co-curricular">
+                            <h5>Co-curriculars and Events</h5>
+                            <p>As an all-rounder school, students at OGM are given opportunity to explore talents
+                                other than narrow academics in areas of sports, arts, music, dance etc. There are
+                                also various events and clubs where students learn to collaborate, volunteer,
+                                rehearse/ practice and perform.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <div class="content transportation">
+                            <h5>Transportation</h5>
+                            <p>OGM is highly accessible from all part of the Kathmandu Valley by public transportation
+                                as it
+                                is located hardly 10 meters North from the Lohakilthali bus-stop. On the other hand, the
+                                school provides reliable transportation facilities from the different parts of
+                                Kathmandu,
+                                Lalitpur and Bhaktapur.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="content hostel">
+                            <h5>Hostel and Day Boarders</h5>
+                            <p>OGM has Boys and Girls Hostels separately under strict observation with home-like
+                                environment and good care by responsible and qualified hostel warden.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <h5>Learning Facilities</h5>
+                <p class="uk-margin-remove-top">OGM offers a wide range of facilities to students other than
+                    classrooms to support their
+                    learning. They include Library, Science Lab, ICT Lab, Sports & Other Facilities:</p>
+                <div class="uk-grid uk-child-width-1-2@m uk-grid-match"
+                    uk-scrollspy="cls: uk-animation-slide-bottom; target:.content; delay: 500; repeat: false">
+
+
+                    <div>
+                        <div class="content library">
+                            <h5>Library</h5>
+                            <p>OGM has a big collection of books of different genre. We have enough reference books
+                                for Pre-primary to Secondary level of different writers of Nepal as well as other
+                                countries of the world.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="content scienceLab">
+                            <h5>Science Lab</h5>
+                            <p>We have set up a well facilitated state-of-the-art Science lab for level wise
+                                experiments. Here, students learn to experience the material and element other fact
+                                and science.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="content computer">
+                            <h5>ICT Lab</h5>
+                            <p>Information and Computer Technology is an integral part of the modern society. We
+                                have managed a well-equipped Digi School ICT Lab. It is a UK-based computer
+                                curriculum and e-learning opportunities for students.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="content eca">
+                            <h5>Sports and Other Facilities</h5>
+                            <p>Our Sports facilities include Futsal, Basketball, Table Tennis, Bad Minton and
+                                several other co-curricular facilities.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="content audio">
+                            <h5>Audio-Visual</h5>
+                            <p>We have an appropriate Audio-Visual lab for students to enhance their learning in
+                                multiple subjects and life-skills.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="salient-feature uk-section">
+            <div class="uk-container uk-container-expand" style="position:relative;z-index:2">
+                <div class="title">
+                    <h5><span>Why </span>OGM?</h5>
+                </div>
+
+                <div uk-scrollspy="cls: uk-animation-slide-left; target:.list; delay: 300; repeat: false">
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Serene and peaceful environment conducive for study</span>
+                    </div>
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Skilled and eminent teaching faculty</span>
+                    </div>
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Scholarships for outstanding students</span>
+                    </div>
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Advanced audio-visual aids room with excellent ICT labs and well equipped and
+                            specious
+                            play ground</span>
+                    </div>
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Special and personal attention</span>
+                    </div>
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Regular workshops, seminar, educational field trips and excursion</span>
+                    </div>
+                    <div class="list">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                        <span>Separate Block for Junior and Senior Level students</span>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <!-- About Us -->
+
+
+    </main>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="uk-container uk-container-expand">
+            <div class="uk-grid footer-wrapper">
+                <div class="uk-width-expand@l uk-width-1-1@m">
+                    <div class="footer-info">
+                        <div class="uk-flex uk-flex-middle uk-flex-wrap">
+                            <a href="index.html" class="foot-logo">
+                                <img src="./assets/img/logo.jpg" alt="">
+                            </a>
+                            <h4 class="uk-margin-remove">OM GYAN MANDIR SCHOOL</h4>
+                        </div>
+                        <p>We Believe to Prove Our Excellence. We are much committed to train the students to be the
+                            leading
+                            executive and academics in the global market. OGM, therefore, comprises a team of highly
+                            experienced, skilled and trained teaching faculty to materialize our vision. For the
+                            academic
+                            excellence of the students, we get them involved in various student-centered activities for
+                            their all round development.</p>
+
+                        <div class="footer-btn">
+                            <a class="uk-button btn-white btn-animate" href="about-us.html"> <span></span> Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-5@l uk-width-1-3@m">
+                    <div class="quick-links">
+
+                        <h4>Quick Links</h4>
+                        <ul class="uk-list">
+                            <li><a href="about-us.html">About</a>
+                            <li><a href="blog.html">Blog</a>
+                            <li><a href="event.html">Event</a>
+                            <li><a href="gallery.html">Gallery</a>
+                            <li><a href="achievement.html">Achievements</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-4@l uk-width-1-3@m">
+                    <div class="contact-info">
+                        <h4>Contact Us</h4>
+
+                        <ul class="uk-list">
+                            <li>
+                                <i class="fas fa-phone-alt uk-margin-small-right"></i>
+                                <a href="tel:6637065">01-6637065</a>
+                            </li>
+                            <li><i class="fas fa-envelope uk-margin-small-right"></i><a
+                                    href="mailto:omgyanmandir51@gmail.com">info@ogm.edu.np</a></li>
+                            <li><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Madhayapur Thimi-1,
+                                Lohakilthali,
+                                Bhaktapur.</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-6@l uk-width-1-3@m">
+                    <div class="social-media">
+                        <h4>Also download our Apps on Play Store</h4>
+                        <div>
+                            <a href="#" class="social">
+                                <img src=" ./assets/img/app-store.png" alt="" class="app ">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="social">
+                                <img src="./assets/img/google-play.png" alt="" class="app ">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="foot">
+                <div class="social-media uk-margin-right">
+                    <a href="#" uk-icon="icon: facebook" class="uk-margin-small-right f uk-padding-remove social"></a>
+                    <a href="#" uk-icon="icon: twitter" class="uk-margin-small-right t uk-padding-remove social"></a>
+                    <a href="#" uk-icon="icon: instagram" class="uk-margin-small-right i uk-padding-remove social"></a>
+                </div>
+                <div class="uk-margin-left">
+                    <span> <a href="https://easysoftware.com.np/" target="_blank">EasySoftware</a> &copy; Copyright 2022
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-bg"></div>
+    </footer>
+    <!-- footer -->
+
+    <!-- go to top starts -->
+    <!-- <a href="!#" class="go-to-top" id="top" uk-scroll uk-tooltip="Go to top">
+    <i class="fas fa-chevron-circle-up fa-2x"></i>
+</a> -->
+    <!-- go to top ends -->
+
+
+    <!-- UIkit JS starts-->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit-icons.min.js"></script>
+    <!-- UIkit JS ends-->
+
+    <!-- jQuery js starts -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery-1.11.0.min.js"></script>
+    <script src="./assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <!-- jQuery js ends -->
+
+    <!-- swiper js starts -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- swiper js ends -->
+
+    <!-- fancy box -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- gsap animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+        integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+
+</html>

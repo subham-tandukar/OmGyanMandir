@@ -1,0 +1,240 @@
+$blue: #19467e;
+$red: #820000;
+$border: #c5c1c1;
+$color: #555;
+$gradient: linear-gradient(135deg, #820000 0%, #ff1616 100%);
+$transition: all 0.3s ease-in-out;
+
+@media (max-width: 1299.98px) {
+  .event .swiper-button-next,
+  .event .swiper-button-prev {
+    left: 10px;
+  }
+}
+@media (max-width: 1199.99px) {
+  .site-nav {
+    padding: 0.5rem 0;
+  }
+
+  footer {
+    .footer-wrapper {
+      h4 {
+        margin-top: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 959.98px) {
+  .heroBanner {
+    .swiper-slide {
+      .banner {
+        img {
+          height: auto;
+          width: 100%;
+        }
+      }
+      .banner-txt {
+        img {
+          height: 200px;
+        }
+      }
+    }
+  }
+  .achievement {
+    .content-wrapper {
+      h3 {
+        text-align: left;
+        margin-left: 4.6rem;
+      }
+      .timeline {
+        &::after {
+          left: 90px;
+        }
+
+        .container {
+          width: 100%;
+          padding-left: 120px;
+          padding-right: 30px;
+        }
+
+        .container.right {
+          left: 0%;
+        }
+
+        .container.left::after,
+        .container.right::after {
+          left: 82px;
+        }
+
+        .container.left::before,
+        .container.right::before {
+          left: 100px;
+          border-color: transparent $red transparent transparent;
+        }
+
+        .container.left .date,
+        .container.right .date {
+          right: auto;
+          left: 15px;
+        }
+
+        .container.left .icon,
+        .container.right .icon {
+          right: auto;
+          left: 146px;
+        }
+
+        .container.left .content,
+        .container.right .content {
+          padding: 30px 30px 30px 90px;
+          border-radius: 500px 0 0 500px;
+        }
+      }
+    }
+  }
+
+  .blog-page .sidebar {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .blog-page .sidebar .latest-post img {
+    width: 100%;
+  }
+
+  .aboutUs-page .aboutUs-page-img {
+    width: 75%;
+    margin: 3rem auto 1rem auto;
+  }
+
+  .mission-vision {
+    .mission-vision-img {
+      order: 2;
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 300px;
+        margin-top: 3rem;
+      }
+    }
+  }
+  .aboutUs .about-img {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    svg {
+      display: none;
+    }
+    img {
+      position: static;
+      display: block;
+      margin: 0 auto;
+      transform: translate(0, 0);
+    }
+  }
+  .chooseUs {
+    .wrapper {
+      .content {
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid #fff;
+      }
+    }
+  }
+
+  .event .wrapper .content {
+    position: static;
+    transform: translateY(0);
+    margin: 3rem;
+    margin-left: 5rem;
+  }
+  .event .wrapper img {
+    height: 300px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 3rem;
+  }
+  .event .swiper-button-next,
+  .event .swiper-button-prev {
+    top: 50%;
+  }
+  .event .swiper-button-next {
+    left: auto;
+    right: 10px;
+  }
+ 
+}
+
+@media (max-width: 767.98px) {
+  .blog-page .sidebar {
+    width: 75%;
+  }
+  .blog-page .content img {
+    height: 300px;
+  }
+  .admission .content {
+    left: 55%;
+  }
+}
+
+@media (max-width: 639.9px) {
+  .heroBanner {
+    .swiper-slide {
+      .banner-txt {
+        img {
+          height: 130px;
+        }
+      }
+    }
+  }
+  p {
+    font-size: 14px;
+  }
+  .site-nav {
+    padding: 0.7rem 0;
+  }
+  .site-nav .logo {
+    padding-left: 20px;
+  }
+  .site-nav .logo .p1 {
+    font-size: 16px;
+  }
+
+  .site-nav .logo img {
+    width: 70px;
+  }
+  .admission-form {
+    .wrapper {
+      padding: 2rem 1rem;
+    }
+  }
+  .blog-page .sidebar {
+    width: 100%;
+  }
+  .aboutUs-page .aboutUs-page-img {
+    width: 100%;
+  }
+  .event .wrapper .content {
+    padding: 1rem;
+  }
+  .event .wrapper img {
+    width: 80%;
+    height: 200px;
+  }
+
+  .admission .content {
+    left: 50%;
+  }
+  .admission .content h1 {
+    font-size: 30px;
+  }
+  .aboutUs .about-img {
+    width: 100%;
+  }
+  #offcanvas-slide .uk-offcanvas-bar {
+    width: 100%;
+  }
+}
+
